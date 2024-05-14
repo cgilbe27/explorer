@@ -23,12 +23,12 @@
     "links": "Links"
   },
   "pages": {
-    "title": "Ping Dashboard",
+    "title": "Nibiru Explorer",
     "title_all": "404",
     "tag": "Beta",
     "tag_all": "Page Not Found",
-    "slogan": "Ping Dashboard is not just an explorer but also a wallet and more ... 🛠",
-    "description": "Cosmos Ecosystem Blockchains 🚀",
+    "slogan": "Nibiru Explorer is not just an explorer but also a wallet and more ... 🛠",
+    "description": "Nibiru Ecosystem Blockchains 🚀",
     "search_placeholder": "Search Chain",
     "description_all": "We couldn't find the page you are looking for.",
     "out_of_sync": "The latest block was produced at ",
@@ -225,8 +225,8 @@
     "signer_addr": "Signer Address",
     "consensus_pub_key": "Consensus Public Key",
     "liquid_staking": "Liquid Staking",
-    "liquid_staking_shares":"Liquid Shares",
-    "validator_bond_share":"Validator Bonded"
+    "liquid_staking_shares": "Liquid Shares",
+    "validator_bond_share": "Validator Bonded"
   },
   "statesync": {
     "title": "What's State Sync?",
@@ -280,7 +280,7 @@
     "select_endpoint": "Select Endpoint",
     "text_1": "Import global script",
     "text_2": "Connect Wallet",
-    "text_3": "Osmosis Convert"
+    "text_3": "Convert"
   },
   "index": {
     "rank": "Rank",
