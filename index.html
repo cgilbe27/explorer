@@ -10,8 +10,24 @@
       content="Nibiru Explorer is a block explorer/web wallet for blockchains built on Cosmos SDK, Cosmoshub, Osmosis, Juno, Evmos, Injective, Canto and 70+ blockchains listed on ping.pub"
     />
     <link rel="stylesheet" type="text/css" href="/loader.css" />
+    <script
+      async
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtm.js?id=	GTM-5Z96TB6L&l=dataLayer"
+    ></script>
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        title="Google Tag Manager"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5Z96TB6L"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="app">
       <div id="loading-bg">
         <div class="pre-loading">
@@ -22,27 +38,6 @@
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-SSBKVF3GMX"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      // Set default consent to 'denied' as a placeholder
-      // Determine actual values based on your own requirements
-      gtag('consent', 'default', {
-        ad_storage: 'denied',
-        ad_user_data: 'denied',
-        ad_personalization: 'denied',
-        analytics_storage: 'denied',
-      });
-      gtag('config', 'G-SSBKVF3GMX');
-    </script>
     <script
       type="module"
       src="https://cdn.jsdelivr.net/npm/ping-widget@latest/dist/ping-widget.min.js"
